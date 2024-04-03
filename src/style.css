@@ -1,0 +1,96 @@
+:root {
+    --paradiso-rgba : rgba(56, 145, 123, 1);
+    --gray-nickel-rgba : rgba(195, 194, 190, 1);
+    --patina-rgba : rgba(98, 157, 142, 1);
+    --westar-rgba : rgba(228, 225, 219, 1);
+
+}
+:root {
+    --black : #1414145d;
+    --natural-black : #0d0e0dbb;
+    --paradiso : #38917b;
+    --gray-nickel : #c3c2be;
+    --patina : #629d8e;
+    --natural-patina : #629d8ece;
+    --kabul : #6a4a3e;
+    --westar : #e4e1db;
+    --natural-gray : #91897e;
+    --mine-shaft : #312d2d;
+    --leater : #96714c;
+    --venus : #918b8d;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    position: relative;
+    /*transition: 1s ease;*/
+} ul li a{color: var(--westar);}
+
+.app {
+    padding: 0px;
+    position: relative;
+    /*background: var(--westar);*/
+}
+
+.container-fluid {
+    padding: 0 35px;
+}
+.banner, .faq, footer{
+    background: var(--natural-patina);
+    /*padding: 30px 0;*/
+    position: relative;
+    height: auto;
+    color: var(--westar);
+}
+.banner .row {
+    position: relative;
+    height: auto;
+    scroll-behavior:auto;
+}
+
+.btn {
+    background: var(--black);
+    color: var(--westar);
+}
+.btn:hover {
+    background: var(--westar);
+    color: var(--patina);
+}
+
+nav ul li .fab {
+    color: var(--westar);
+    background: var(--patina);
+}
+h6{
+    color: var(--black);
+}
+main h1{
+    color: var(--patina);
+}
+main .row .col-sm-1{
+    color: var(--natural-black);
+}
+main .row .col-sm-1 :hover{
+    /*transition: 0.1s ease;*/
+    background: var(--patina);
+    border-radius: 5px;
+    color: var(--westar);
+}
+.caroussel, .section {
+    /*background: var(--westar);*/
+    color: var(--patina);
+}
+.caroussel .col-md-6 span{
+    color: var(--black);
+}
+.caroussel .col-md-6 .fas{
+    font-size: 20px;
+}
+ .section .btn {
+    background: var(--patina);
+ }.section .btn:hover{background: white;color: var(--patina);border: 1px solid var(--patina);}
+ .section .row input::placeholder,.section .row textarea::placeholder{color: var(--patina);}
